@@ -10,11 +10,11 @@ $.fn.extend({
     }
 });
 
-$('#hi').animateCss('fadeIn');
+$('#hi').animateCss('fadeIn').addClass('opacity1');
 
-$('#touch').animateCss('fadeIn');
+$('#touch').animateCss('fadeIn').addClass('opacity1');
 
-$('#unicorn').animateCss('fadeIn');
+$('#unicorn').animateCss('fadeIn').addClass('opacity1');
 
 // $('#hi').addClass('animated fadeIn');
 

@@ -25,12 +25,18 @@ h1 {
 
 .hidiv {
 	position: absolute;
-	top: 30%;
+	top: 20%;
 	text-align: center;
 	width: 100%;
+	/*top :0;*/
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin: auto;
 }
 
 #hi {
+	opacity: 0;
 	color: white;
 	-webkit-animation-duration: 3s;
 	-webkit-animation-delay: 1s;
@@ -39,29 +45,41 @@ h1 {
 
 .touchdiv {
 	position: absolute;
-	top: 50%;
+	top: 40%;
 	text-align: center;
 	width: 100%;
+	/*top :0;*/
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin: auto;
 }
 
 #touch {
+	opacity: 0;
 	color: white;
 	-webkit-animation-duration: 3s;
-	-webkit-animation-delay: 3s;
+	-webkit-animation-delay: 4s;
 	-webkit-animation-iteration-count: 1;
 }
 
 .unicorndiv {
 	position: absolute;
-	top: 70%;
+	top: 60%;
 	text-align: center;
 	width: 100%;
+	/*top :0;*/
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin: auto;
 }
 
 #unicorn {
+	opacity: 0;
 	height: 150px;
 	-webkit-animation-duration: 3s;
-	-webkit-animation-delay: 5s;
+	-webkit-animation-delay: 6s;
 	-webkit-animation-iteration-count: 1;
 }
 
@@ -72,5 +90,9 @@ h1 {
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
+}
+
+.opacity1 {
+	opacity: 1 !important;
 }
 
