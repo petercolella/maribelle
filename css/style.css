@@ -2,17 +2,75 @@ body {
 	display: flex;
   	min-height: 100vh;
   	flex-direction: column;
-	background: url(../images/balloons.jpg) no-repeat center center fixed; 
+	
+}
+
+header {
+
+}
+
+main {
+	flex: 1 0 auto;
+	
+}
+
+h1 {
+	margin: 0 !important;
+}
+
+.intro {
+	min-height: 100vh;
+	background-color: #ff69b4;
+}
+
+.hidiv {
+	position: absolute;
+	top: 30%;
+	text-align: center;
+	width: 100%;
+}
+
+#hi {
+	color: white;
+	-webkit-animation-duration: 3s;
+	-webkit-animation-delay: 1s;
+	-webkit-animation-iteration-count: 1;
+}
+
+.touchdiv {
+	position: absolute;
+	top: 50%;
+	text-align: center;
+	width: 100%;
+}
+
+#touch {
+	color: white;
+	-webkit-animation-duration: 3s;
+	-webkit-animation-delay: 3s;
+	-webkit-animation-iteration-count: 1;
+}
+
+.unicorndiv {
+	position: absolute;
+	top: 70%;
+	text-align: center;
+	width: 100%;
+}
+
+#unicorn {
+	height: 150px;
+	-webkit-animation-duration: 3s;
+	-webkit-animation-delay: 5s;
+	-webkit-animation-iteration-count: 1;
+}
+
+.bday {
+	min-height: 100vh;
+	background: url(../images/balloons.jpg) no-repeat center center; 
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
 }
 
-main {
-	flex: 1 0 auto;
-}
-
-h1 {
-	color: red;
-}
