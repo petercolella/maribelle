@@ -83,6 +83,10 @@ h1 {
 	-webkit-animation-iteration-count: 1;
 }
 
+.bdayLink {
+	cursor: pointer;
+}
+
 .bday {
 	min-height: 100vh;
 	background: url(../images/balloons.jpg) no-repeat center center; 

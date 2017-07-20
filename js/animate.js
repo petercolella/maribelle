@@ -16,6 +16,10 @@ $('#touch').animateCss('fadeIn').addClass('opacity1');
 
 $('#unicorn').animateCss('fadeIn').addClass('opacity1');
 
-// $('#hi').addClass('animated fadeIn');
+});
 
+$('.bdayLink').click(function() {
+	$('html,body').animate({
+		scrollTop: $("#bday-link").offset().top},
+	1000);
 });

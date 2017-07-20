@@ -26,11 +26,13 @@
 			<h2 id="touch">Touch the Unicorn to Continue...</h2>
 		</div>
 		<div class="container unicorndiv">
-			<img id="unicorn" src="./images/unicorn.png">
+			<!-- <a href="#bday-link" title="unicorn" alt="unicorn"> -->
+			<img class="bdayLink" id="unicorn" src="./images/unicorn.png">
+			<!-- </a> -->
 		</div>	
 	</div>
 
-	<div class="section scrollspy bday no-padding col s12">
+	<div class="section scrollspy bday no-padding col s12" id="bday-link">
 		<div class="container">
 
 			<h1 class="center-align animated zoomInUp">Happy Belated Birthday!!!</h1>
@@ -73,6 +75,9 @@
 		setInterval(function() {
 			$('.carousel').carousel('next');
 		}, 2000);
+		$('.scrollspy').scrollSpy( {
+	    scrollOffset: 0
+  });
 	</script>
 </body>
 </html>
