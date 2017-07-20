@@ -1,4 +1,4 @@
-window.onload = function(){
+$(document).ready(function(){
 
 $.fn.extend({
     animateCss: function (animationName) {
@@ -18,4 +18,4 @@ $('#unicorn').animateCss('fadeIn');
 
 // $('#hi').addClass('animated fadeIn');
 
-};
+});
