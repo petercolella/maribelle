@@ -96,6 +96,34 @@ h1 {
 	background-size: cover;
 }
 
+.bdaydiv {
+	/*padding-top: 3em;*/
+	/*top: 20%;*/
+	text-align: center;
+	width: 100%;
+	top :0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin: auto;
+}
+
+#happy {
+	opacity: 0;
+	color: white;
+	-webkit-animation-duration: 1s;
+	-webkit-animation-delay: 1s;
+	-webkit-animation-iteration-count: 1;
+}
+
+#love {
+	opacity: 0;
+	color: white;
+	-webkit-animation-duration: 1s;
+	-webkit-animation-delay: 2s;
+	-webkit-animation-iteration-count: 1;
+}
+
 .opacity1 {
 	opacity: 1 !important;
 }

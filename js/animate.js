@@ -22,4 +22,6 @@ $('.bdayLink').click(function() {
 	$('html,body').animate({
 		scrollTop: $("#bday-link").offset().top},
 	1000);
+	$('#happy').animateCss('zoomInUp').addClass('opacity1 animate rubberBand');
+	$('#love').animateCss('fadeInLeftBig').addClass('opacity1 animate wobble');
 });
