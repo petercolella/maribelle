@@ -23,5 +23,18 @@ $('.bdayLink').click(function() {
 		scrollTop: $("#bday-link").offset().top},
 	1000);
 	$('#happy').animateCss('zoomInUp').addClass('opacity1 animate rubberBand');
-	$('#love').animateCss('fadeInLeftBig').addClass('opacity1 animate wobble');
+	$('#love').animateCss('fadeInLeftBig').addClass('opacity1 animate tada');
 });
+
+$('.backToTop').click(function() {
+	$('html,body').animate({
+		scrollTop: $("body").offset().top},
+	1000);
+
+	$('#hi').animateCss('fadeIn').addClass('opacity1');
+
+	$('#touch').animateCss('fadeIn').addClass('opacity1');
+
+	$('#unicorn').animateCss('fadeIn').addClass('opacity1');
+});
+

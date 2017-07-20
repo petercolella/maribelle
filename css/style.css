@@ -87,6 +87,15 @@ h1 {
 	cursor: pointer;
 }
 
+.segue {
+	min-height: 100vh;
+	background: url(../images/uniballoons.jpg) no-repeat center center; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
 .bday {
 	min-height: 100vh;
 	background: url(../images/balloons.jpg) no-repeat center center; 
@@ -120,8 +129,12 @@ h1 {
 	opacity: 0;
 	color: white;
 	-webkit-animation-duration: 1s;
-	-webkit-animation-delay: 2s;
+	-webkit-animation-delay: 3s;
 	-webkit-animation-iteration-count: 1;
+}
+
+.backToTop {
+	cursor: pointer;
 }
 
 .opacity1 {
