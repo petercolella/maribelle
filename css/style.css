@@ -141,3 +141,8 @@ h1 {
 	opacity: 1 !important;
 }
 
+a.carousel-item>img {
+	max-height: 200px !important;
+	width: auto !important;
+}
+
